@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+aside{
+    width: 100%;
+    background: white;
+    border-right: 1px solid #ddd;
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.focused-item{
+  background-color: rgba(202, 201, 201, 0.322);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;  
+  gap: 20px;
+  padding: 7px;
+  border-radius: 10px;
+}
+.focused-item:hover{
+  background-color: rgba(143, 142, 142, 0.322);
+
+}
+.item{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px; 
+  padding: 7px;
+  border-radius: 10px;
+}
+.item:hover{
+    background-color:rgba(202, 201, 201, 0.322);
+}
+.focused-item h3,.item h3{
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(46, 46, 46);
+}
+.subscribtion img{
+   border-radius: 55%;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: white;
+    
+}
+.flex-row{
+    display: flex;
+    cursor: pointer;
+}
+.title{
+    gap: 7px;
+}
+hr{
+    margin-top: 10px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 12px;
+}
+.footer h4{
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+.footer p{
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+    margin-bottom: 12px;
+}
+.Subscribtions{
+   
+    display: none;
+}
+@media only screen and (max-width: 1311px) {
+.flex {
+margin-left: 7px;
+gap: 45px;
+}
+.Subscribtions{
+    display: block;
+}
+.subscribtion{
+    display: none;
+}
+.actions{
+    display: none;
+}
+.footer{
+    display: none;
+}
+aside hr{
+    display: none;
+}
+aside{
+    display: flex;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    background-color: transparent;
+}
+.flex-row{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row h2{
+    font-size: 10px;
+}
+.item,.focused-item{
+    gap: 10px;
+    width: 50px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}

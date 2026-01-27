@@ -1,0 +1,72 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    column-gap: 10px;
+    row-gap: 19px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+.video{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 0 11px;
+    background-color: rgba(202, 201, 201, 0);
+    transition: 0.5s ease;
+    border-radius: 20px;
+}
+.video:hover{
+background-color: rgba(202, 201, 201, 0.466)
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.details img{
+    margin-right: 10px;
+    width: 38px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.details h2{
+    margin: 0 7px;
+}
+.picture img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+   
+}
+.channel-name img{
+    width: 13px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.user-info p,.channel-name p{
+    /* position: absolute; */
+    left: 50px;
+    margin-left: 53px;
+}
+.channel-name{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+@media only screen and (max-width: 1123px) {
+    .grid{
+        grid-template-columns: repeat(2,minmax(250px,1fr));
+    }
+}
+@media only screen and (max-width: 650px) {
+    .grid{
+        grid-template-columns: repeat(1,minmax(200px,1fr));
+    }
+}

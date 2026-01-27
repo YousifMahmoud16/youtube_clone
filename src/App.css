@@ -1,0 +1,76 @@
+html, body {
+height: 100vh;
+margin: 0;
+padding: 0;
+background-color: white;
+overflow: hidden;
+}
+
+
+.app {
+  display: grid;
+  grid-template-columns: 240px repeat(3,1fr);
+  grid-template-rows: repeat(auto,1fr);
+  grid-template-areas:"head head head head" "side cont cont cont" ;
+  height: calc(120vh - 195px);
+  margin-top: 68px;
+  width: 100vw;
+  background-color: white;
+
+}
+.sidebar{
+  grid-area: side;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: white;
+  width: 240px;
+  height: 100%;
+  
+}
+.sidebar:hover{
+  overflow-y: auto;
+}
+.content{
+  grid-area: cont;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100vh - 50px);
+  padding-top: 23px;
+  background-color: white;
+}
+.header{
+  grid-area: head;
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    padding-top: 6px;
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    border-bottom: 1px solid #ddd;
+    padding: 0 16px;
+
+}
+
+@media only screen and (max-width: 1311px) {
+.sidebar {
+width: 90px;
+position: fixed;
+  top: 60px;
+  left: 0;
+}
+.app{
+    grid-template-columns: 100px repeat(3,1fr);
+    grid-template-rows: repeat(auto,1fr);
+  grid-template-areas:"head head head head" "side cont cont cont" ;
+}
+.sidebar:hover{
+  overflow-y: hidden;
+}
+
+}
