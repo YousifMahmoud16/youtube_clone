@@ -12,8 +12,8 @@ const Header = () => {
       <nav>
 
     <div className="logo flex-box">
-        <img style={{width:"40px",marginLeft:"15px"}} src={menu} alt="" />
-        <img src={logo}></img>
+       <div className="menuIcon"> <img style={{width:"40px",marginLeft:"15px",marginTop:"9px"}} src={menu} alt="" /></div>
+       <div className="logo"> <img src={logo}></img><h1>YouTube</h1></div>
     </div>
     <form class="search flex-box">
     <input type="search" placeholder="Search…" />
@@ -23,7 +23,8 @@ const Header = () => {
     </form>
     <div className="info flex-box">
         <img src={notification} alt="" />
-        <img src={profile} alt="" />
+        <div className="pfp"><img style={{marginTop:"7px"}} src={profile} alt="" /></div>
+       <div className="mobileSearch"> <img  src={search} alt="Search"/></div>
     </div>
 
       </nav>

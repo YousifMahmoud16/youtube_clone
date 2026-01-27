@@ -84,3 +84,38 @@ img{
 .menu{
     width: 50px;
 }
+.mobileSearch img{
+    display: none;
+}
+.logo h1{
+    display: none;
+}
+@media screen and (max-width: 760px) {
+.menuIcon img{
+    display: none;
+}
+.mobileSearch img{
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+.pfp img{
+    display: none;
+}
+.search{
+    display: none;
+}
+.logo h1{
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    margin-left: -21px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+}

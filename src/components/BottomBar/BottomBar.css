@@ -1,0 +1,8 @@
+.bottomFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+    border-top: 1px solid grey;
+
+}
