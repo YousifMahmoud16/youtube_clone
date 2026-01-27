@@ -46,6 +46,10 @@ background-color: rgba(202, 201, 201, 0.466)
     flex-direction: column;
    
 }
+.user-info p{
+    color: rgb(105, 105, 105);
+   
+}
 .channel-name img{
     width: 13px;
     border-radius: 50%;

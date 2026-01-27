@@ -7,7 +7,7 @@ import BottomBar from './components/BottomBar/BottomBar'
 
 const App = () => {
   return (
-    
+    <>
       <div className="app">
         
         <div className="header">
@@ -24,11 +24,12 @@ const App = () => {
       <Content/>
     </div>
 
-       <div className="bottomBar">
+       
+   </div>
+   <div className="bottomBar">
         <BottomBar/>
        </div>
-   </div>
-
+</>
   )
 }
 
