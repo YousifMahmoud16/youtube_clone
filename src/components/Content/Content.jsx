@@ -33,11 +33,17 @@ const Content = ({picture,channelLogo,videoTitle,channelName,ago}) => {
         channelName="Barcelona"
         ago="9 years ago"
         />
-        <Video picture={video2}
+        <Video picture={video1}
         channelLogo={logo1}
-        videoTitle="FC BARCELONA 3 - 2 REAL MADRID | HIGHLIGHTS LALIGA EA SPORTS"
+        videoTitle="FC BARCELONA 3 - 0 REAL OVIEDO | HIGHLIGHTS LALIGA EA SPORTS"
         channelName="Barcelona"
-        ago="9 years ago"
+        ago="3 days ago"
+        />
+        <Video picture={video1}
+        channelLogo={logo1}
+        videoTitle="FC BARCELONA 3 - 0 REAL OVIEDO | HIGHLIGHTS LALIGA EA SPORTS"
+        channelName="Barcelona"
+        ago="3 days ago"
         />
         <Video picture={video2}
         channelLogo={logo1}
@@ -51,11 +57,17 @@ const Content = ({picture,channelLogo,videoTitle,channelName,ago}) => {
         channelName="Barcelona"
         ago="9 years ago"
         />
-        <Video picture={video2}
+       <Video picture={video1}
         channelLogo={logo1}
-        videoTitle="FC BARCELONA 3 - 2 REAL MADRID | HIGHLIGHTS LALIGA EA SPORTS"
+        videoTitle="FC BARCELONA 3 - 0 REAL OVIEDO | HIGHLIGHTS LALIGA EA SPORTS"
         channelName="Barcelona"
-        ago="9 years ago"
+        ago="3 days ago"
+        />
+        <Video picture={video1}
+        channelLogo={logo1}
+        videoTitle="FC BARCELONA 3 - 0 REAL OVIEDO | HIGHLIGHTS LALIGA EA SPORTS"
+        channelName="Barcelona"
+        ago="3 days ago"
         />
         <Video picture={video2}
         channelLogo={logo1}
@@ -69,11 +81,11 @@ const Content = ({picture,channelLogo,videoTitle,channelName,ago}) => {
         channelName="Barcelona"
         ago="9 years ago"
         />
-        <Video picture={video2}
+        <Video picture={video1}
         channelLogo={logo1}
-        videoTitle="FC BARCELONA 3 - 2 REAL MADRID | HIGHLIGHTS LALIGA EA SPORTS"
+        videoTitle="FC BARCELONA 3 - 0 REAL OVIEDO | HIGHLIGHTS LALIGA EA SPORTS"
         channelName="Barcelona"
-        ago="9 years ago"
+        ago="3 days ago"
         />
         <Video picture={video2}
         channelLogo={logo1}
@@ -81,23 +93,11 @@ const Content = ({picture,channelLogo,videoTitle,channelName,ago}) => {
         channelName="Barcelona"
         ago="9 years ago"
         />
-        <Video picture={video2}
+        <Video picture={video1}
         channelLogo={logo1}
-        videoTitle="FC BARCELONA 3 - 2 REAL MADRID | HIGHLIGHTS LALIGA EA SPORTS"
+        videoTitle="FC BARCELONA 3 - 0 REAL OVIEDO | HIGHLIGHTS LALIGA EA SPORTS"
         channelName="Barcelona"
-        ago="9 years ago"
-        />
-        <Video picture={video2}
-        channelLogo={logo1}
-        videoTitle="FC BARCELONA 3 - 2 REAL MADRID | HIGHLIGHTS LALIGA EA SPORTS"
-        channelName="Barcelona"
-        ago="9 years ago"
-        />
-        <Video picture={video2}
-        channelLogo={logo1}
-        videoTitle="FC BARCELONA 3 - 2 REAL MADRID | HIGHLIGHTS LALIGA EA SPORTS"
-        channelName="Barcelona"
-        ago="9 years ago"
+        ago="3 days ago"
         />
         
 
