@@ -71,7 +71,7 @@ background-color: rgba(202, 201, 201, 0.466)
         grid-template-columns: repeat(2,minmax(0,1fr));
     }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 740px) {
     .grid{
         grid-template-columns: repeat(1, minmax(0, 1fr));
         row-gap: 9px;
