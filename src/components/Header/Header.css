@@ -94,6 +94,10 @@ img{
 .menuIcon img{
     display: none;
 }
+ nav{
+    padding: 0 9px;
+}
+
 .mobileSearch img{
     display: block;
     width: 23px;
